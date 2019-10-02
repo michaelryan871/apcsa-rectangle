@@ -10,13 +10,13 @@ public class apcsa_rectangle {
       double length = in.nextDouble();
       System.out.print("Width: ");
       double width = in.nextDouble();
-
+      in.close();
+      
       double area = length * width;
 
       System.out.printf("The area of a " + String.format("%.1f", length) + "-by-" + String.format("%.1f", width) + " rectangle is " + String.format("%.1f", area) + ".\n");
 
 
-    in.close();
 
   }
 }
